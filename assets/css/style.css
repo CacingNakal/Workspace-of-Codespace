@@ -770,9 +770,9 @@ p {
 }
 
 /*===========================
-  SERVICES css 
+  Visi css 
 ===========================*/
-.single-services {
+.single-visi {
   background-color: #fff;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
@@ -784,22 +784,22 @@ p {
 }
 
 @media (max-width: 767px) {
-  .single-services {
+  .single-visi {
     padding: 20px 20px 30px;
   }
 }
 
-.single-services .services-icon {
+.single-visi .visi-icon {
   display: inline-block;
   position: relative;
 }
 
-.single-services .services-icon img {
+.single-visi .visi-icon img {
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
 }
 
-.single-services .services-icon .shape-1 {
+.single-visi .visi-icon .shape-1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -807,7 +807,7 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.single-services .services-icon i {
+.single-visi .visi-icon i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -817,7 +817,7 @@ p {
   color: #fff;
 }
 
-.single-services .services-content .services-title a {
+.single-visi .visi-content .visi-title a {
   font-size: 26px;
   font-weight: 700;
   color: #2E2E2E;
@@ -826,32 +826,32 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .single-services .services-content .services-title a {
+  .single-visi .visi-content .visi-title a {
     font-size: 24px;
   }
 }
 
 @media (max-width: 767px) {
-  .single-services .services-content .services-title a {
+  .single-visi .visi-content .visi-title a {
     font-size: 20px;
   }
 }
 
-.single-services .services-content .services-title a:hover {
+.single-visi .visi-content .visi-title a:hover {
   color: #361CC1;
 }
 
-.single-services .services-content .text {
+.single-visi .visi-content .text {
   margin-top: 30px;
 }
 
 @media (max-width: 767px) {
-  .single-services .services-content .text {
+  .single-visi .visi-content .text {
     margin-top: 20px;
   }
 }
 
-.single-services .services-content .more {
+.single-visi .visi-content .more {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 400;
@@ -860,34 +860,34 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-.single-services .services-content .more i {
+.single-visi .visi-content .more i {
   margin-left: 10px;
   font-size: 14px;
   font-weight: 700;
 }
 
-.single-services .services-content .more:hover {
+.single-visi .visi-content .more:hover {
   letter-spacing: 2px;
 }
 
-.single-services:hover {
+.single-visi:hover {
   border-color: #fe7a7b;
 }
 
-.single-services:hover .services-icon .shape {
+.single-visi:hover .visi-icon .shape {
   -webkit-transform: rotate(25deg);
   transform: rotate(25deg);
 }
 
 /*===========================
-	ABOUT css 
+	FnP css 
 ===========================*/
-.about-area {
+.fnp-area {
   position: relative;
   z-index: 5;
 }
 
-.about-shape-1 {
+.fnp-shape-1 {
   position: absolute;
   top: 0;
   right: 0;
@@ -896,17 +896,17 @@ p {
   z-index: -1;
 }
 
-.about-shape-1 img {
+.fnp-shape-1 img {
   width: 100%;
 }
 
 @media (max-width: 767px) {
-  .about-shape-1 {
+  .fnp-shape-1 {
     display: none;
   }
 }
 
-.about-shape-2 {
+.fnp-shape-2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -915,25 +915,25 @@ p {
   z-index: -1;
 }
 
-.about-shape-2 img {
+.fnp-shape-2 img {
   width: 100%;
 }
 
 @media (max-width: 767px) {
-  .about-shape-2 {
+  .fnp-shape-2 {
     display: none;
   }
 }
 
-.about-content {
+.fnp-content {
   max-width: 480px;
 }
 
-.about-content .text {
+.fnp-content .text {
   margin-top: 15px;
 }
 
-.about-content .main-btn {
+.fnp-content .main-btn {
   background: -webkit-gradient(linear, left top, right top, from(#fe8464), color-stop(50%, #fe6e9a), to(#fe8464));
   background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
   background-size: 200%;
@@ -943,7 +943,7 @@ p {
   margin-top: 40px;
 }
 
-.about-content .main-btn:hover {
+.fnp-content .main-btn:hover {
   background-position: right center;
 }
 
@@ -958,7 +958,7 @@ p {
 .video-content .dots {
   position: absolute;
   left: -30px;
-  bottom: 0;
+  bottom: 40px;
 }
 
 .video-wrapper {
@@ -1286,36 +1286,36 @@ p {
 }
 
 .footer-widget {
-  padding-top: 50px;
+  padding-top: 180px;
 }
 
-.footer-about .logo img {
+.footer-fnp .logo img {
   width: 160px;
 }
 
-.footer-about .text {
+.footer-fnp .text {
   color: #fff;
   line-height: 30px;
   margin-top: 30px;
 }
 
-.footer-about .social {
+.footer-fnp .social {
   margin-top: 40px;
 }
 
-.footer-about .social li {
+.footer-fnp .social li {
   display: inline-block;
   margin-right: 30px;
 }
 
-.footer-about .social li a {
+.footer-fnp .social li a {
   font-size: 22px;
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
-.footer-about .social li a:hover {
+.footer-fnp .social li a:hover {
   color: #fe8464;
 }
 
